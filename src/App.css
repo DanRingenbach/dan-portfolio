@@ -1,0 +1,43 @@
+footer {
+  text-align: center;
+  position: relative;  
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+}
+
+p {
+  color: grey;
+}
+
+h1 {
+  color: #0e1c36;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #B5D99C;
+}
+
+.container-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 100px;
+  margin: 5px;
+ 
+}
+
+.contact {
+  background-color: #B5D99C;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+#aboutmedescr {
+  margin-top: 20px;
+}
