@@ -19,10 +19,13 @@ h1 {
   background-color: #B5D99C;
 }
 
-.container-div {
+.container {
+  
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .icon {

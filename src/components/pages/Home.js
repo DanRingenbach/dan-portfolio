@@ -2,7 +2,7 @@ import React from "react";
 import propic from "../images/propic.jpg";
 export default function About() {
   return (
-    <div className="container m-4" id="aboutme">
+    <div className="container mt-4" id="aboutme">
       <div className="row">
         <div className="container-div">
           <img

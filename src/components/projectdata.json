@@ -1,5 +1,11 @@
 [
     {
+        "name": "DnD Character Builder",
+        "link": "https://github.com/DanRingenbach/DnD-Character-Builder",
+        "image": "https://assets.skybound.com/wp-content/uploads/2019/08/12165636/dnd-characters.jpg",
+        "descr": "Dungeons and Dragons is a popular role playing game that has been around since 1974. The game involves role playing as fantastical characters with a group of friends and going on imaginary adventures. There are many apects to this complicated and lore driven game but the cornerstone of all campaigns is the individual characters. Creating your first character can be daunting for the first time player. That's why with this site we've simplified and streamlined the operation so that you can get to playing you first D&D campaign even faster. This application is a fullstack MERN build. Meaning we used Mongoose, Express, React, and Nodejs."
+    },
+    {
         "name": "Work Day Scheduler",
         "link": "https://github.com/DanRingenbach/05-Work-Day-Scheduler",
         "image": "https://freerangestock.com/sample/120630/flat-lay-of-a-calendar-on-the-table.jpg",
