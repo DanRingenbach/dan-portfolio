@@ -9,7 +9,7 @@
         "name": "Work Day Scheduler",
         "link": "https://github.com/DanRingenbach/05-Work-Day-Scheduler",
         "image": "https://freerangestock.com/sample/120630/flat-lay-of-a-calendar-on-the-table.jpg",
-        "descr": "The task of this project was to create a simple daily scheduling web application. Starter code for the css and the html were given. The Javascript file was written entirely from scratch. Moment JS was used to make the application time-dependant. Appointements/user input is saved locally and displayed when the user opens the application."
+        "descr": "The task of this project was to create a simple daily scheduling web application. Starter code for the CSS and the HTML were given. The JavaScript file was written entirely from scratch. Moment.JS was used to make the application time-dependant. Appointements/user input is saved locally and displayed when the user opens the application."
     },
     {
         "name": "Budget Tracker",
