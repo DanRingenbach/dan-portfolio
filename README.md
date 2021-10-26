@@ -8,6 +8,7 @@ For this project I created a portfolio for my work using the JavaScript framewor
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Deployed Application](#deployment)
 
 ## Usage
 To run application 
@@ -20,11 +21,14 @@ npm run build
 #### Collaborators
     Dan Ringenbach
 
+## Deployment
+
+[Dan's Portfolio](https://danringenbach.github.io/dan-portfolio/)
+
+## Screenshot
+
+![Screenshot](/screenshot.png "Screenshot")
 
 ## License
 
 [MIT License](license.txt)
-
-## Deployed Application
-
-[Dan's Portfolio](https://danringenbach.github.io/dan-portfolio/)
