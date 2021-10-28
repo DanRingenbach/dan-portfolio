@@ -2,24 +2,28 @@
     {
         "name": "DnD Character Builder",
         "link": "https://github.com/DanRingenbach/DnD-Character-Builder",
+        "deploy":"https://dnd-character-create.herokuapp.com/",
         "image": "https://assets.skybound.com/wp-content/uploads/2019/08/12165636/dnd-characters.jpg",
-        "descr": "Dungeons and Dragons is a popular role playing game that has been around since 1974. The game involves role playing as fantastical characters with a group of friends and going on imaginary adventures. There are many apects to this complicated and lore driven game but the cornerstone of all campaigns is the individual characters. Creating your first character can be daunting for the first time player. That's why with this site we've simplified and streamlined the operation so that you can get to playing you first D&D campaign even faster. This application is a fullstack MERN build. Meaning we used Mongoose, Express, React, and Nodejs."
+        "descr": "Dungeons and Dragons is a popular role playing game that has been around since 1974. The game involves role playing as fantastical characters with a group of friends and going on imaginary adventures. There are many apects to this complicated and lore driven game but the cornerstone of all campaigns is the individual characters. Creating your first character can be daunting for the first time player. That's why with this site we've simplified and streamlined the operation so that you can get to playing you first D&D campaign even faster. This application is a fullstack MERN build. Meaning we used Mongoose, Express, React, and Node.js."
     },
     {
         "name": "Work Day Scheduler",
         "link": "https://github.com/DanRingenbach/05-Work-Day-Scheduler",
+        "deploy": "https://danringenbach.github.io/05-Work-Day-Scheduler/",
         "image": "https://freerangestock.com/sample/120630/flat-lay-of-a-calendar-on-the-table.jpg",
-        "descr": "The task of this project was to create a simple daily scheduling web application. Starter code for the CSS and the HTML were given. The JavaScript file was written entirely from scratch. Moment.JS was used to make the application time-dependant. Appointements/user input is saved locally and displayed when the user opens the application."
+        "descr": "The task of this project was to create a simple daily scheduling web application. Starter code for the CSS and the HTML were given. The JavaScript file was written entirely from scratch. Moment.js was used to make the application time-dependant. Appointements/user input is saved locally and displayed when the user opens the application."
     },
     {
         "name": "Budget Tracker",
         "link": "https://github.com/DanRingenbach/19-Budget-Tracker",
+        "deploy":"https://dan-ringenbach-budget-tracker.herokuapp.com/",
         "image": "https://media.istockphoto.com/photos/home-budget-with-tax-form-money-and-calculator-picture-id915636236?k=6&m=915636236&s=612x612&w=0&h=_JnzEZX1JFqtrXLp2RwGCEicU0NMJoTZD8kFQCqr3H0=",
-        "descr": "For this project I was given the front end and most of the back end of an fitness tracking application. My role was to complete the back-end of this application by making if functional offline. I did so by using Express, Mongodb, and Mongoose. Offline functionality was produced by introducing indexedDB"
+        "descr": "For this project I was given the front end and most of the back end of an fitness tracking application. My role was to complete the back-end of this application by making if functional offline. I did so by using Express, MongoDB, and Mongoose. Offline functionality was produced by introducing indexedDB"
     },
     {
         "name": "Meal Planner",
         "link": "https://github.com/DanRingenbach/Project-2",
+        "deploy":"https://team-7-meal-buddy.herokuapp.com/",
         "image": "https://media.istockphoto.com/photos/healthy-lifestyle-diet-food-man-healthy-food-picture-id1093904158?k=6&m=1093904158&s=612x612&w=0&h=CLJwJqt6mlKXVlwDYaYYjbC87Gs8uRjb_BqXWVgYN-g=",
         "descr": "For this project my group wanted to create a functional web application that would aid the user in the planning of daily meals throughout the week. Sometimes deciding on a meal is one of the hardest things to do when planning your week. With our application the user can plan out their week by planning specific meals on specific days. These meals can be deleted and re-added at the click of a button. The user also has the ability to add multiple dishes for specific meals. The application also has the ability to send a welcome e-mail when the user signs up for the service."
     }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import Contact from './pages/Contact';

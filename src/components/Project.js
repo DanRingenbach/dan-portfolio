@@ -1,7 +1,4 @@
-
-
 function Project(props) {
-    console.log(props.descr)
   return (
     <>
       <div className="container mt-3">
@@ -11,9 +8,7 @@ function Project(props) {
               <h2 className="card-title">
                 <a href={props.link}>{props.name}</a>
               </h2>
-              <p className='card-text'>
-                  {props.descr}
-              </p>
+              <p className="card-text">{props.descr}</p>
               <img
                 className=""
                 src={props.image}
@@ -21,9 +16,20 @@ function Project(props) {
                   height: "300px",
                   width: "300px",
                   borderRadius: "25px",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
                 alt="screenshot"
               />
+              <a
+                className="btn btn-primary mt-2"
+                href={props.deploy}
+                role="button"
+              >
+                Deployed Application
+              </a>
             </div>
           </div>
         </div>
