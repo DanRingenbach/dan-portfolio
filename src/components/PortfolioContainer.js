@@ -8,11 +8,6 @@ import Footer from './Footer'
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-  }
-
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'Home') {
