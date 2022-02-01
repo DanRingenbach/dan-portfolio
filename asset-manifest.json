@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/dan-portfolio/static/css/main.a72e2121.chunk.css",
-    "main.js": "/dan-portfolio/static/js/main.84e0d462.chunk.js",
-    "main.js.map": "/dan-portfolio/static/js/main.84e0d462.chunk.js.map",
+    "main.css": "/dan-portfolio/static/css/main.20119e8f.chunk.css",
+    "main.js": "/dan-portfolio/static/js/main.f799ad76.chunk.js",
+    "main.js.map": "/dan-portfolio/static/js/main.f799ad76.chunk.js.map",
     "runtime-main.js": "/dan-portfolio/static/js/runtime-main.f6f57743.js",
     "runtime-main.js.map": "/dan-portfolio/static/js/runtime-main.f6f57743.js.map",
-    "static/css/2.f2512455.chunk.css": "/dan-portfolio/static/css/2.f2512455.chunk.css",
-    "static/js/2.54ea3fce.chunk.js": "/dan-portfolio/static/js/2.54ea3fce.chunk.js",
-    "static/js/2.54ea3fce.chunk.js.map": "/dan-portfolio/static/js/2.54ea3fce.chunk.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/dan-portfolio/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.31a700e2.chunk.js": "/dan-portfolio/static/js/2.31a700e2.chunk.js",
+    "static/js/2.31a700e2.chunk.js.map": "/dan-portfolio/static/js/2.31a700e2.chunk.js.map",
     "index.html": "/dan-portfolio/index.html",
-    "static/css/2.f2512455.chunk.css.map": "/dan-portfolio/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.a72e2121.chunk.css.map": "/dan-portfolio/static/css/main.a72e2121.chunk.css.map",
-    "static/js/2.54ea3fce.chunk.js.LICENSE.txt": "/dan-portfolio/static/js/2.54ea3fce.chunk.js.LICENSE.txt",
+    "static/css/2.d8cb5cde.chunk.css.map": "/dan-portfolio/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.20119e8f.chunk.css.map": "/dan-portfolio/static/css/main.20119e8f.chunk.css.map",
+    "static/js/2.31a700e2.chunk.js.LICENSE.txt": "/dan-portfolio/static/js/2.31a700e2.chunk.js.LICENSE.txt",
     "static/media/Resume.f574facf.pdf": "/dan-portfolio/static/media/Resume.f574facf.pdf",
     "static/media/linkedInIcon.9a1a7f81.png": "/dan-portfolio/static/media/linkedInIcon.9a1a7f81.png",
     "static/media/propic.a87c94dd.jpg": "/dan-portfolio/static/media/propic.a87c94dd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f6f57743.js",
-    "static/css/2.f2512455.chunk.css",
-    "static/js/2.54ea3fce.chunk.js",
-    "static/css/main.a72e2121.chunk.css",
-    "static/js/main.84e0d462.chunk.js"
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.31a700e2.chunk.js",
+    "static/css/main.20119e8f.chunk.css",
+    "static/js/main.f799ad76.chunk.js"
   ]
 }
