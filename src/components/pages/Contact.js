@@ -3,7 +3,7 @@ import resume from "../images/Resume.pdf";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact">
       <h1 className="m-2 ">Contact</h1>
       <div className='m-3 contact'>
         <h3>Email</h3>

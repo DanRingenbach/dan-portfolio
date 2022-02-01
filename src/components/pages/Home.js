@@ -12,7 +12,7 @@ export default function About() {
               width: "300px",
               borderRadius: "40px",
             }}
-            alt="Profile Picture"
+            alt="Profile"
           />
         </div>
         <div id="aboutmedescr">
