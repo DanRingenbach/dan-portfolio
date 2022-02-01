@@ -5,7 +5,7 @@ import linkedInIcon from './images/linkedInIcon.png'
 function Footer() {
     return(
         <footer className='mb-3'>
-        <h3>Find me online!</h3>
+        <h5>Find me online!</h5>
         <a target='_blank' href="https://github.com/DanRingenbach">
             <img className='icon' src={githubIcon} />
         </a>

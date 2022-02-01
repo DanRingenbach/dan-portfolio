@@ -13,7 +13,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    
+
     if (currentPage === 'Work') {
       return <Work />;
     }
@@ -26,7 +26,9 @@ export default function PortfolioContainer() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

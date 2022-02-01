@@ -1,22 +1,25 @@
 footer {
   text-align: center;
-  position: relative;  
-  bottom: 0;
-  height: 40px;
+  position: absolute;  
+  bottom: 0rem;
+  height: 2.5rem;
   width: 100%;
+  margin-top: 10px;
 }
 
 p {
-  color: grey;
+  color: #119DA4;
 }
 
+
+
 h1 {
-  color: #0e1c36;
+  color: #0C7489;
   text-align: center;
 }
 
 .card-body {
-  background-color: #B5D99C;
+  background-color: #d0f3dc;
 }
 
 .container {
@@ -29,18 +32,28 @@ h1 {
 }
 
 .icon {
-  width: 100px;
+  width: 50px;
   margin: 5px;
  
-}
+} 
 
 .contact {
-  background-color: #B5D99C;
+  height: 50%;
+  
   text-align: center;
-  margin-bottom: 5px;
+  margin: 10rem;
 
 }
 
 #aboutmedescr {
   margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #119DA4 !important;
+  border-color: #119DA4 !important;
+}
+
+.nav-link {
+color: #119DA4 !important;
 }
