@@ -3,33 +3,27 @@ function Project(props) {
      
     <>
       <div className="container mt-3">
-        <div className="row">
+        <div className="">
           <div className="card">
-            <div className="card-body row">
-              <h2 className="card-title">
-                <a href={props.link}>{props.name}</a>
-              </h2>
-              <p className="card-text">{props.descr}</p>
-              <img
-                className=""
-                src={props.image}
-                style={{
-                  height: "300px",
-                  width: "300px",
-                  borderRadius: "25px",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-                alt="screenshot"
-              />
+            <div className="card-body">
+              <h3 className="card-title">
+                {props.name}
+              </h3>
+              <p className="card-text" style={{ display:'flex', alignItems: 'flex-start'}}>{props.descr}</p>
+              
               <a
-                className="btn btn-primary mt-2"
+                className="btn btn-primary m-2"
                 href={props.deploy}
                 role="button"
               >
                 Deployed Application
+              </a>
+              <a
+                className="btn btn-primary m-2"
+                href={props.link}
+                role="button"
+              >
+                GitHub Repository
               </a>
             </div>
           </div>

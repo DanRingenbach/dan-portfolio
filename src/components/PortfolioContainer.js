@@ -17,7 +17,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Work') {
       return <Work />;
     }
-    return <Contact />;
+    
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
