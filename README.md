@@ -23,11 +23,8 @@ npm run build
 
 ## Deployment
 
-[Dan's Portfolio](https://danringenbach.github.io/dan-portfolio/)
+[Dan's Portfolio](dringenbach.com)
 
-## Screenshot
-
-![Screenshot](/screenshot.png "Screenshot")
 
 ## License
 
