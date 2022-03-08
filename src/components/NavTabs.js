@@ -12,11 +12,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           <Nav.Link ml-5 href="#home" onClick={() => handlePageChange('Home')}>Home</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#work" onClick={() => handlePageChange('Work')} >Work</Nav.Link>
+          <Nav.Link href="#work" onClick={() => handlePageChange('Work')} >Web Dev Work</Nav.Link>
         </Nav.Item>
-        {/* <Nav.Item>
-          <Nav.Link href='#contact' onClick={() => handlePageChange('Contact')}>Contact</Nav.Link>
-        </Nav.Item> */}
+        <Nav.Item>
+          <Nav.Link href='#art' onClick={() => handlePageChange('Art')}>Art Work</Nav.Link>
+        </Nav.Item>
       </Nav>
       </>
   );

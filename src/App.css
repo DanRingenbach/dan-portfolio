@@ -48,15 +48,14 @@ h1 {
  
 } 
 
+
+
 .contact {
   height: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
-  
-  
   
 
 }
