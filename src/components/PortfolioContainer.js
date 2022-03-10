@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Work from './pages/Work';
 import Art from './pages/Art';
 import Header from './Header'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

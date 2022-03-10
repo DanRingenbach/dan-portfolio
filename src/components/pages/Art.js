@@ -6,24 +6,22 @@ import ArtContainer from '../ArtContainer'
 function Art() {
   return (
     <>
-      <div className='container'>
-        <div className='row'>
-          {/* <div className=" col-sm-12"> */}
+      <div className='row art-card-container'>
+        
             
             {artData.map(art => (
 
 
 
               
-                <ArtContainer title={art.title} img={art.img} />
+                <ArtContainer title={art.title} img={art.img} descr={art.descr} medium={art.medium} />
               
 
 
 
             ))}
             
-          {/* </div> */}
-        </div>
+         
       </div>
 
     </>

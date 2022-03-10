@@ -32,6 +32,14 @@ h1 {
   background-color: #e8f8ee;
 }
 
+.art-card-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
 .container {
   
   display: flex;
@@ -77,6 +85,18 @@ color: #119DA4 !important;
   display: grid !important;
 } */
 
+h6 {
+  color: rgb(128, 128, 128);
+  
+}
+
+.art-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+
+}
 @media (max-width: 991px){
   .contact{
       flex-direction: column;
