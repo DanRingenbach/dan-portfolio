@@ -4,14 +4,14 @@
         "link": "https://github.com/DanRingenbach/DnD-Character-Builder",
         "deploy":"https://dnd-character-create.herokuapp.com/",
         "image": "https://assets.skybound.com/wp-content/uploads/2019/08/12165636/dnd-characters.jpg",
-        "descr": "Dungeons and Dragons is a popular role playing game that has been around since 1974. The game involves role playing as fantastical characters with a group of friends and going on imaginary adventures. There are many apects to this complicated and lore driven game but the cornerstone of all campaigns is the individual characters. Creating your first character can be daunting for the first time player. That's why with this site we've simplified and streamlined the operation so that you can get to playing you first D&D campaign even faster. This application is a fullstack MERN build. Meaning we used Mongoose, Express, React, and Node.js."
+        "descr": "This is the final project I completed for the Penn LPS Full Stack Web Development Boot Camp. The assignment was as a group to create a complete React.js application from scratch and deploy it to Heroku. Myself and two classmates began meeting and discussing what our application should do. We developed the idea of a D&D character creator which would enable a casual player of the role playing game Dungeons and Dragons to create a character easily and save it to an editable database. After wireframing the basic usability in Figma I was given the task to complete and connect the backend using GraphQL and MongoDB. We completed the project on time and the final presentation went flawlessly. I am very proud of what we were able to accomplish in such a small amount of time."
     },
     {
         "name": "Work Day Scheduler",
         "link": "https://github.com/DanRingenbach/05-Work-Day-Scheduler",
         "deploy": "https://danringenbach.github.io/05-Work-Day-Scheduler/",
         "image": "https://freerangestock.com/sample/120630/flat-lay-of-a-calendar-on-the-table.jpg",
-        "descr": "The task of this project was to create a simple daily scheduling web application. Starter code for the CSS and the HTML were given. The JavaScript file was written entirely from scratch. Moment.js was used to make the application time-dependant. Appointements/user input is saved locally and displayed when the user opens the application."
+        "descr": "The task of this assignment was to create a simple daily scheduling web application. The starter code for the CSS and the HTML was provided already. Our task was to give the site functionality using vanilla JavaScript and the npm package Moment.js. I was able to fulfill all the requirements of the assignment and submit on time. User input is saved locally and retrieved on page load and the color of the hour blocks is dependent on the current time of day"
     },
     {
         "name": "Budget Tracker",

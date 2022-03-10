@@ -13,11 +13,18 @@ p {
 }
 
 .button {
+  height: 40px;
+  width: 200px;
   background-color: white;
   color: black;
   border: 2px solid #119DA4;
   border-radius: 25px;
-  margin: 5px;
+  margin: 10px;
+   
+}
+
+.button:hover {
+  filter: drop-shadow(5px 5px 5px #c4c4c4);
 }
 
 
@@ -35,7 +42,7 @@ h1 {
 .art-card-container {
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   text-align: left;
 }
@@ -81,12 +88,10 @@ h1 {
 color: #119DA4 !important;
 }
 
-/* .nav {
-  display: grid !important;
-} */
+
 
 h6 {
-  color: rgb(128, 128, 128);
+  color: rgb(151, 151, 151);
   
 }
 
