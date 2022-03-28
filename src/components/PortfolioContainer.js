@@ -19,9 +19,9 @@ export default function PortfolioContainer() {
       return <Work />;
     }
 
-    else {
-      return <Art />;
-    }
+    // else {
+    //   return <Art />;
+    // }
     
   };
 

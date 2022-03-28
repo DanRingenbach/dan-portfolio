@@ -14,9 +14,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         <Nav.Item>
           <Nav.Link href="#work" onClick={() => handlePageChange('Work')} >Web Dev Work</Nav.Link>
         </Nav.Item>
-        <Nav.Item>
+        {/* <Nav.Item>
           <Nav.Link href='#art' onClick={() => handlePageChange('Art')}>Art Work</Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
       </Nav>
       </>
   );
