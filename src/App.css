@@ -9,7 +9,9 @@ footer {
 }
 
 p {
-  color: #119DA4;
+  color: #000000;
+  font-family:'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .button {
@@ -17,28 +19,40 @@ p {
   width: 200px;
   background-color: white;
   color: black;
-  border: 2px solid #119DA4;
+  border: 3px solid #000000;
   border-radius: 25px;
   margin: 10px;
   font-size: large;
-  font-weight:normal;
+  font-family:'Roboto', sans-serif; 
+  font-weight:bold;
    
 }
 
 .button:hover {
-  filter: drop-shadow(5px 5px 5px #c4c4c4);
+  filter: drop-shadow(6px 6px 6px #ffa6a6);
 }
 
 
 h1 {
-  color: #0C7489;
+  color: #000000;
   text-align: left;
   display: flex;
   align-self: center;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.card {
+  border: 2px, solid, #ff0000 !important;
 }
 
 .card-body {
-  background-color: #e8f8ee;
+  background-color: #ffffff;
+  border: #000000 !important;
 }
 
 .art-card-container {
@@ -82,12 +96,13 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #119DA4 !important;
-  border-color: #119DA4 !important;
+  background-color: #ffffff !important;
+  border-color: #000000 !important;
+  color:#000000 !important;
 }
 
 .nav-link {
-color: #119DA4 !important;
+color: #000000 !important;
 }
 
 
