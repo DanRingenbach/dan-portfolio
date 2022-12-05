@@ -6,7 +6,7 @@ export default function About() {
       <div className="container mt-5" id="aboutme">
 
         <div className="container-div">
-          <img style={{width: '200px'}}
+          <img style={{width: 200}}
             src={propic}
             
             alt="Profile"
