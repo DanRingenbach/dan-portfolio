@@ -1,4 +1,7 @@
 function Project(props) {
+
+
+  
   return (
      
     <>
@@ -18,6 +21,7 @@ function Project(props) {
               >
                 Deployed Application
               </a>
+              
               <a
                 className="btn btn-primary m-2"
                 href={props.link}

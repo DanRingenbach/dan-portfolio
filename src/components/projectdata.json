@@ -1,7 +1,8 @@
 [
     {
-        "name": "Iperdesign Icbreaker Card Game",
+        "name": "Iperdesign Icebreaker Card Game",
         "deploy": "https://iperdesign.com/icebreaker/",
+        "link":"https://github.com/DanRingenbach",
         "descr": "I developed this simple mobile card game for Iperdesign based on their pre-existing deck of icbreaker cards. The design is mobile first but desktop friendly. It is built using HTML, JavaScript and CSS."
 
     },
