@@ -1,5 +1,17 @@
 function Project(props) {
+  let deployedBtn 
 
+  if (props.deploy) {
+    deployedBtn = <a
+    className="btn btn-primary m-2"
+    href={props.deploy}
+    role="button"
+  >
+    Deployed Application
+  </a>
+  } else {
+    deployedBtn = null 
+  }
 
   
   return (
@@ -13,15 +25,7 @@ function Project(props) {
                 {props.name}
               </h3>
               <p className="card-text" style={{ display:'flex', alignItems: 'flex-start'}}>{props.descr}</p>
-              
-              <a
-                className="btn btn-primary m-2"
-                href={props.deploy}
-                role="button"
-              >
-                Deployed Application
-              </a>
-              
+              {deployedBtn}
               <a
                 className="btn btn-primary m-2"
                 href={props.link}
