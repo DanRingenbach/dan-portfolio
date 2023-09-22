@@ -1,34 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.014368a8.chunk.css",
-    "main.js": "/static/js/main.7820da2d.chunk.js",
-    "main.js.map": "/static/js/main.7820da2d.chunk.js.map",
+    "main.js": "/static/js/main.ec3656fc.chunk.js",
+    "main.js.map": "/static/js/main.ec3656fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b87cd4d3.js",
     "runtime-main.js.map": "/static/js/runtime-main.b87cd4d3.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.509b66ef.chunk.js": "/static/js/2.509b66ef.chunk.js",
-    "static/js/2.509b66ef.chunk.js.map": "/static/js/2.509b66ef.chunk.js.map",
+    "static/js/2.3f2ddc93.chunk.js": "/static/js/2.3f2ddc93.chunk.js",
+    "static/js/2.3f2ddc93.chunk.js.map": "/static/js/2.3f2ddc93.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
     "static/css/main.014368a8.chunk.css.map": "/static/css/main.014368a8.chunk.css.map",
-    "static/js/2.509b66ef.chunk.js.LICENSE.txt": "/static/js/2.509b66ef.chunk.js.LICENSE.txt",
-    "static/media/Tree1.0ceda9aa.png": "/static/media/Tree1.0ceda9aa.png",
-    "static/media/Untitled.25294d34.png": "/static/media/Untitled.25294d34.png",
-    "static/media/badMood.aff12423.png": "/static/media/badMood.aff12423.png",
-    "static/media/davidAndGoliath.b21279f8.jpg": "/static/media/davidAndGoliath.b21279f8.jpg",
-    "static/media/dream.0198b057.jpg": "/static/media/dream.0198b057.jpg",
-    "static/media/jamesDean.21b5a7ed.jpg": "/static/media/jamesDean.21b5a7ed.jpg",
-    "static/media/materialStudy.01ecb39c.png": "/static/media/materialStudy.01ecb39c.png",
-    "static/media/materialStudy2.bd11909e.png": "/static/media/materialStudy2.bd11909e.png",
-    "static/media/mondays.49a826a9.jpg": "/static/media/mondays.49a826a9.jpg",
-    "static/media/motivationalSketch.16e02c31.png": "/static/media/motivationalSketch.16e02c31.png",
+    "static/js/2.3f2ddc93.chunk.js.LICENSE.txt": "/static/js/2.3f2ddc93.chunk.js.LICENSE.txt",
     "static/media/propic.88db0786.jpg": "/static/media/propic.88db0786.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b87cd4d3.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.509b66ef.chunk.js",
+    "static/js/2.3f2ddc93.chunk.js",
     "static/css/main.014368a8.chunk.css",
-    "static/js/main.7820da2d.chunk.js"
+    "static/js/main.ec3656fc.chunk.js"
   ]
 }
