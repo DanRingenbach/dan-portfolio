@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { JSX, useState } from 'react';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import Art from './pages/Art';
-import Header from './Header'
-// import Footer from './Footer'
+import Header from './Header';
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+type PageType = 'Home' | 'Work' | 'Art';
+
+export default function PortfolioContainer(): JSX.Element {
+  const [currentPage, setCurrentPage] = useState<PageType>('Home');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderPage = () => {
- 
+  const renderPage = (): JSX.Element | null => {
     if (currentPage === 'Home') {
       return <Home />;
     }
@@ -19,13 +19,18 @@ export default function PortfolioContainer() {
       return <Work />;
     }
 
-    // else {
-    //   return <Art />;
-    // }
+    if (currentPage === 'Art') {
+      return <Art />;
+    }
     
+    return null;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page: string): void => {
+    if (page === 'Home' || page === 'Work' || page === 'Art') {
+      setCurrentPage(page);
+    }
+  };
 
   return (
     <div>
@@ -34,4 +39,3 @@ export default function PortfolioContainer() {
     </div>
   );
 }
-
