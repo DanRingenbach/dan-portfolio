@@ -1,4 +1,5 @@
 import React, { JSX } from 'react';
+import styles from './Project.module.scss';
 
 interface ProjectProps {
   name: string;
@@ -14,7 +15,7 @@ function Project(props: ProjectProps): JSX.Element {
   if (props.deploy) {
     deployedBtn = (
       <a
-        className="btn btn-primary m-2"
+        className='button'
         href={props.deploy}
         role="button"
       >
@@ -27,26 +28,24 @@ function Project(props: ProjectProps): JSX.Element {
 
   return (
     <>
-      <div className="container mt-3">
-        <div className="">
-          <div className="card">
-            <div className="card-body">
-              <h3 className="card-title">
-                {props.name}
-              </h3>
-              <p className="card-text" style={{ display:'flex', alignItems: 'flex-start'}}>
-                {props.descr}
-              </p>
-              {deployedBtn}
-              <a
-                className="btn btn-primary m-2"
-                href={props.link}
-                role="button"
-              >
-                GitHub Repository
-              </a>
-            </div>
-          </div>
+      <div className={styles.projectCard}>
+        <h3 className={styles.title}>
+          {props.name}
+        </h3>
+        <p className={styles.description}>
+          {props.descr}
+        </p>
+        <div className={styles.buttonContainer}>
+
+            {deployedBtn}
+          
+          <a
+            className='button'
+            href={props.link}
+            role="button"
+          >
+            GitHub Repository
+          </a>
         </div>
       </div>
     </>

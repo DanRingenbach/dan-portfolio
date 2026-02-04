@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import '../index.css'
+import '../index.scss'
 
 export const metadata: Metadata = {
     title: 'Dan Ringenbach',
