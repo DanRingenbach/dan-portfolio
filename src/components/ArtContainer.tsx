@@ -1,4 +1,5 @@
 import React, { JSX, useState } from 'react';
+import styles from './ArtContainer.module.scss';
 
 interface ArtContainerProps {
   title: string;
@@ -16,76 +17,45 @@ function ArtContainer(props: ArtContainerProps): JSX.Element {
 
     return (
         <>
-            <div className='col-sm-6 art-card-container mt-5'>
-                <div style={{ maxWidth: '400px', minHeight: '400px' }} className="m-3">
-                    <div className="art-card">
-                        <h3 className="card-title">
+            <div className={styles.artContainer}>
+                <div className={styles.cardBody}>
+                    <div className={styles.content}>
+                        <h3 className={styles.title}>
                             {props.title}
                         </h3>
                         <img 
                             onClick={handleShow} 
                             id='img'
-                            style={loaded ? { maxHeight: "100%", maxWidth: "100%", cursor: 'pointer' } : { display: 'none' }}
+                            className={loaded ? styles.image : styles.imageHidden}
                             src={props.img}
                             onLoad={() => setLoaded(true)}
                             alt={props.title}
                         />
-                        <p></p>
-                        <h6>{props.medium}</h6>
-                        <p>{props.descr}</p>
+                        <div className={styles.spacer}></div>
+                        <h6 className={styles.medium}>{props.medium}</h6>
+                        <p className={styles.description}>{props.descr}</p>
                     </div>
                 </div>
             </div>
 
-            {/* Basic Modal Implementation */}
+            {/* Modal Implementation */}
             {show && (
                 <div 
-                    style={{
-                        position: 'fixed',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        zIndex: 1050
-                    }}
+                    className={styles.modalOverlay}
                     onClick={handleClose}
                 >
                     <div
-                        style={{
-                            position: 'relative',
-                            maxWidth: '90%',
-                            maxHeight: '90%',
-                            backgroundColor: 'white',
-                            padding: '20px',
-                            borderRadius: '8px'
-                        }}
+                        className={styles.modalContent}
                         onClick={(e: React.MouseEvent) => e.stopPropagation()}
                     >
                         <button
                             onClick={handleClose}
-                            style={{
-                                position: 'absolute',
-                                top: '10px',
-                                right: '15px',
-                                background: 'none',
-                                border: 'none',
-                                fontSize: '24px',
-                                cursor: 'pointer',
-                                color: '#333'
-                            }}
+                            className={styles.modalCloseButton}
                         >
                             ×
                         </button>
                         <img 
-                            style={{ 
-                                maxWidth: '100%', 
-                                maxHeight: '100%',
-                                objectFit: 'contain'
-                            }}
+                            className={styles.modalImage}
                             src={props.img}
                             alt={props.title}
                         />
@@ -94,6 +64,7 @@ function ArtContainer(props: ArtContainerProps): JSX.Element {
             )}
         </>
     );
+   
 }
 
 export default ArtContainer;

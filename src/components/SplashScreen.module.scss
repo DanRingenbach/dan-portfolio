@@ -1,0 +1,166 @@
+/* ===============================
+   SPLASH SCREEN CSS MODULE
+   =============================== */
+
+/* Main splash screen container with gradient background */
+.splashScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 1s ease-out;
+  opacity: 1;
+}
+
+/* Fade out animation for splash screen exit */
+.fadeOut {
+  opacity: 0;
+}
+
+/* Shimmer effect overlay for splash screen */
+.splashScreen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+/* Container for the name and subtitle */
+.nameContainer {
+  text-align: center;
+}
+
+/* Main name heading styling with fade-in animation */
+.nameTitle {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  animation: fadeInTitle 1s ease-out;
+}
+
+/* Subtitle styling */
+.subtitle {
+  margin-top: 1rem;
+  font-size: clamp(0.9rem, 2.5vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  transition: all 1s ease-out 2.5s;
+  animation: fadeInUp 1s ease-out 2s both;
+}
+
+/* Subtitle fade out state */
+.subtitle.fadeOut {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Spinning image container */
+.spinningImage {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Crushed can spinning image */
+.crushedCan {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  animation: spin 2s linear infinite;
+  opacity: 0.8;
+}
+
+
+/* ===============================
+   KEYFRAME ANIMATIONS
+   =============================== */
+
+/* Spin animation for crushed can */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shimmer effect for splash screen background */
+@keyframes shimmer {
+  0%, 100% { 
+    opacity: 0.5; 
+  }
+  50% { 
+    opacity: 1; 
+  }
+}
+
+/* Fade in animation for title */
+@keyframes fadeInTitle {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Fade in up animation for subtitle */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Pulse animation for loading dots */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+   =============================== */
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .nameTitle {
+    font-size: clamp(2rem, 10vw, 4rem);
+  }
+  
+  .subtitle {
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+  }
+}

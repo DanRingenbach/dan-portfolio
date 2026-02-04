@@ -1,0 +1,168 @@
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    @media (max-width: 768px) {
+        padding: 1rem;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+}
+
+.content {
+    text-align: center;
+    max-width: 60rem;
+    width: 100%;
+    
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+.bio {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: left;
+    
+    @media (max-width: 768px) {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+    }
+}
+
+.skillsContainer {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    position: relative;
+    
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        z-index: 2;
+        pointer-events: none;
+    }
+    
+    &::before {
+        left: 0;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent);
+    }
+    
+    &::after {
+        right: 0;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent);
+    }
+    
+    @media (max-width: 768px) {
+        border-radius: 1rem;
+        padding: 0.75rem 0;
+        
+        &::before,
+        &::after {
+            width: 30px;
+        }
+    }
+}
+
+.skillsTrack {
+    display: flex;
+    gap: 2rem;
+    animation: scroll-left 30s linear infinite;
+    
+    &:hover {
+        animation-play-state: paused;
+    }
+    
+    @media (max-width: 768px) {
+        gap: 1rem;
+        animation: scroll-left 20s linear infinite;
+    }
+    
+    @media (max-width: 480px) {
+        gap: 0.75rem;
+        animation: scroll-left 15s linear infinite;
+    }
+}
+
+.skill {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.75rem;
+        border-radius: 0.75rem;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+        border-radius: 0.5rem;
+    }
+}
+
+.buttonList {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+
+/* Additional responsive adjustments */
+@media (max-width: 480px) {
+    .skillsContainer {
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+}

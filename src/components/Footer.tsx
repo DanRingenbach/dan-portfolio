@@ -4,7 +4,7 @@ import linkedInIcon from './images/linkedInIcon.png';
 
 function Footer(): JSX.Element {
     return(
-        <footer className='mb-3'>
+        <footer className=''>
             <a target='_blank' rel='noopener noreferrer' href="https://github.com/DanRingenbach">
                 <img alt='GitHub' className='icon' src={githubIcon.src} />
             </a>

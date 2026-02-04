@@ -1,33 +1,27 @@
+import untitled1Img from './images/Untitled.png';
+import jamesDean from './images/jamesDean.jpg';
+import mondays from './images/mondays.jpg';
+import davidAndGoliath from './images/davidAndGoliath.jpg';
+import materialStudy from './images/materialStudy.png';
+import materialStudy2 from './images/materialStudy2.png';
+import badMood from './images/badMood.png';
+import motivationalSketch from './images/motivationalSketch.png';
+import { StaticImageData } from 'next/image';
 
-import untitled1Img from './images/artWork/Untitled.png'
-import jamesDean from './images/artWork/jamesDean.jpg'
-import mondays from './images/artWork/mondays.jpg'
-import davidAndGoliath from './images/artWork/davidAndGoliath.jpg'
-import materialStudy from './images/artWork/materialStudy.png'
-import materialStudy2 from './images/artWork/materialStudy2.png'
-import badMood from './images/artWork/badMood.png'
-import motivationalSketch from './images/artWork/motivationalSketch.png'
+export interface ArtworkItem {
+    id?: string;
+    title: string;
+    img: StaticImageData;
+    medium: string;
+    descr: string;
+}
 
-
-const artData = [
+const artData: ArtworkItem[] = [
     {
         title: "Untitled",
         img: untitled1Img,
         medium: "acrylic - butcher paper",
         descr: "This piece uses typography and color as well as the natural effect of aging on materials to reflect on the inevitble end of relationships"
-    },
-    
-    {
-        title: 'Mondays',
-        img: mondays,
-        medium: 'acrylic - sketchbook paper',
-        descr: 'A sketch containing an amalgamation of symbols foreshadowing the end of the weekend'
-    },
-    {
-        title: 'David and Goliath',
-        img: davidAndGoliath,
-        medium: 'acrylic - sketchbook paper',
-        descr:'A love letter to in the forma of a graph picturing a stylized volkswagen'
     },
     {
         title: 'Material Study 1',
@@ -59,11 +53,6 @@ const artData = [
         medium: 'newsprint - charcoal',
         descr: 'Sketch on newsprint reminding the viewer to stay positive'
     }
+];
 
-
-
-
-
-]
-
-export default artData
+export default artData;
