@@ -10,7 +10,6 @@ function Work(): JSX.Element {
                 <Project
                     key={index}
                     name={project.name}
-                    image={project.image}
                     link={project.link}
                     descr={project.descr}
                     deploy={project.deploy}
