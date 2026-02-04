@@ -3,7 +3,6 @@ import styles from './Project.module.scss';
 
 interface ProjectProps {
   name: string;
-  image: string;
   link: string;
   descr: string;
   deploy?: string;

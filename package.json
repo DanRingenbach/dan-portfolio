@@ -17,7 +17,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve@latest ./build"
+    "start": "npx serve@latest ./build",
+    "export": "next build",
+    "deploy": "npm run export && gh-pages -d build",
+    "predeploy": "npm run export"
   },
   "eslintConfig": {
     "extends": [
