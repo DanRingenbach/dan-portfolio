@@ -17,7 +17,6 @@ export default function PortfolioContainer({ slug }: PortfolioContainerProps): J
 
   // Set initial page based on URL slug
   useEffect(() => {
-    console.log('PortfolioContainer received slug:', slug);
     if (slug.length === 0 || slug[0] === 'home') {
       setCurrentPage('Home');
     } else if (slug[0] === 'work') {
