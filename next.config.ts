@@ -1,14 +1,15 @@
 import type { NextConfig } from 'next'
+
+const isProd = process.env.NODE_ENV === 'production';
  
 const nextConfig: NextConfig = {
-  distDir: 'build',
   output: 'export',
   trailingSlash: true,
+  basePath: isProd ? '/dan-portfolio' : '',
+  assetPrefix: isProd ? '/dan-portfolio/' : '',
   images: {
-    unoptimized: true
+    unoptimized: true, // GitHub Pages does not support Next.js image optimization
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/dan-portfolio' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/dan-portfolio/' : '',
 }
  
 export default nextConfig
