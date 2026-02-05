@@ -72,37 +72,14 @@
   transform: translateY(20px);
 }
 
-/* Spinning image container */
-.spinningImage {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-/* Crushed can spinning image */
-.crushedCan {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  animation: spin 2s linear infinite;
-  opacity: 0.8;
-}
 
 
 /* ===============================
    KEYFRAME ANIMATIONS
    =============================== */
 
-/* Spin animation for crushed can */
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 /* Shimmer effect for splash screen background */
 @keyframes shimmer {

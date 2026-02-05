@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import styles from './SplashScreen.module.scss';
-import crushedCanImage from './images/crushed-can-2.png';
 
 interface SplashScreenProps {
   onComplete: () => void;
@@ -37,14 +36,6 @@ export default function SplashScreen({ onComplete }: SplashScreenProps) {
         
         <div className={`${styles.subtitle} ${fadeOut ? styles.fadeOut : ''}`}>
           DEVELOPER & DESIGNER
-        </div>
-
-        <div className={styles.spinningImage}>
-          <img 
-            src={crushedCanImage.src} 
-            alt="Loading" 
-            className={styles.crushedCan}
-          />
         </div>
       </div>
     </div>
