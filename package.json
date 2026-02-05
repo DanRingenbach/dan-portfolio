@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danringenbach.github.io/dan-portfolio",
+  "homepage": "https://dan-portfolio-dan-ringenbach.vercel.app",
   "name": "dan-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -16,10 +16,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve@latest ./out",
-    "export": "next build",
-    "deploy": "npm run build && gh-pages -d out",
-    "predeploy": "npm run build"
+    "start": "next start",
+    "lint": "next lint"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +39,6 @@
   },
   "devDependencies": {
     "@types/react": "19.2.10",
-    "typescript": "5.9.3",
-    "gh-pages": "^3.2.3"
+    "typescript": "5.9.3"
   }
 }
