@@ -1,4 +1,4 @@
-import React, { JSX, useState } from 'react';
+import React, { JSX, useState, useEffect } from 'react';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import Art from './pages/Art';
@@ -7,9 +7,25 @@ import SplashScreen from './SplashScreen';
 
 type PageType = 'Home' | 'Work' | 'Art';
 
-export default function PortfolioContainer(): JSX.Element {
+type PortfolioContainerProps = {
+  slug: string[]
+}
+
+export default function PortfolioContainer({ slug }: PortfolioContainerProps): JSX.Element {
   const [currentPage, setCurrentPage] = useState<PageType>('Home');
   const [showSplash, setShowSplash] = useState(true);
+
+  // Set initial page based on URL slug
+  useEffect(() => {
+    console.log('PortfolioContainer received slug:', slug);
+    if (slug.length === 0 || slug[0] === 'home') {
+      setCurrentPage('Home');
+    } else if (slug[0] === 'work') {
+      setCurrentPage('Work');
+    } else if (slug[0] === 'art') {
+      setCurrentPage('Art');
+    }
+  }, [slug]);
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = (): JSX.Element | null => {

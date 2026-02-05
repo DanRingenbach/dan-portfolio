@@ -17,8 +17,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve@latest ./out",
-    "export": "next export",
-    "deploy": "next build && next export && gh-pages -d out",
+    "export": "next build",
+    "deploy": "npm run build && gh-pages -d out",
     "predeploy": "npm run build"
   },
   "eslintConfig": {
